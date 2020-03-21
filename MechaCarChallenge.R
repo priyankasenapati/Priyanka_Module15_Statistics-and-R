@@ -4,10 +4,9 @@ mecha_car <- read.csv('MechaCar_mpg.csv')
 #Perform mulitple linear regression with continuous data
 lm(mpg ~ vehicle.length + vehicle.weight + spoiler.angle + ground.clearance + AWD,data=mecha_car)
 #Get r-squared and p-value
-summary(lm(mpg ~ vehicle.length + vehicle.weight + spoiler.angle + ground.clearance + AWD,data=mecha_car))
-#Cross check to see if the results are repeated with only the factors that provide a non-random amout of variance.
-lm(mpg ~ vehicle.weight + spoiler.angle, data=mecha_car)
-summary(lm(mpg ~ vehicle.weight + spoiler.angle, data=mecha_car))
+##  #Perfrom MULTIPLE LINEAR REGRESSION
+summary(lm(mpg ~ vehicle.length + vehicle.weight + spoiler.angle + ground.clearance + AWD,data=mecha_car))   #generate summary statistics
+
 
 
 ## (2) SUSPENSION COIL SUMMARY
