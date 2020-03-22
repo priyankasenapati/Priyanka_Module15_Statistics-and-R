@@ -155,9 +155,9 @@ Ha - The slope of the Linear Model is not 0.
 
 The statistical test that will be performed is Multiple Linear Regression.
 
-- Knowing what test should be used, what data should be collected?
+## Knowing what test should be used, what data should be collected?
 
-*The following data should be collected from existing 3 top reviewed cars and the MechaCar prototype.
+The following data should be collected from existing 3 top reviewed cars and the MechaCar prototype.
 
 1. Manufacturing Cost
 2. MSRP
