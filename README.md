@@ -129,12 +129,12 @@ derive a conclusion that the null hypothesis can be rejected and that the PSI da
 statistically different.
 
 
-Part 4 Design Your Own Study
+## Part 4 Design Your Own Study:
 Design a study that compares the performance of the MechaCar prototype vehicle to other comparable
 vehicles on the market. The following is a statistical study that can quantify how the MechaCar
 outperforms the competition.
 
-O Metrics you would think would be of interest to a consumer (cost, fuel efficiency, color options,
+- Metrics you would think would be of interest to a consumer (cost, fuel efficiency, color options,
 etc.).
 
 The metrics that would be of interest to a customer are Cost, Range, Electric or Gas or Hybrid,
@@ -143,10 +143,9 @@ Torque, Depreciation Value, Customer Service, Availability of Service Centers an
 Accessory options, Colors, Car Reviews, Interior space, Trunk Space, Ease of driving, Acceleration,
 Breaking power, Airbags, Rear Camera, Safety Features
 
-O Determine what question we would ask, what the null and alternative hypothesis would be to answer
-that question, and what statistical test could be used to test this hypothesis. 
+## Determine what question we would ask, what the null and alternative hypothesis would be to answer that question, and what statistical test could be used to test this hypothesis. 
 
-he question that needs to be asked is: Will MechaCar be in the top three highly rated cars in
+The question that needs to be asked is: Will MechaCar be in the top three highly rated cars in
 the Car Reviews? This position will translate into higher customer demand, sales, revenue and
 profit numbers. We will be considering the above metrics from 3 existing cars with the highest
 Car Review Ratings and be comparing with the MechaCar's Car Rating forcast.
@@ -156,9 +155,9 @@ Ha - The slope of the Linear Model is not 0.
 
 The statistical test that will be performed is Multiple Linear Regression.
 
-O Knowing what test should be used, what data should be collected?
+- Knowing what test should be used, what data should be collected?
 
-The following data should be collected from existing 3 top reviewed cars and the MechaCar prototype.
+*The following data should be collected from existing 3 top reviewed cars and the MechaCar prototype.
 
 1. Manufacturing Cost
 2. MSRP
