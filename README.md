@@ -1,7 +1,7 @@
 # Priyanka_Module15_Statistics-and-R
 ## Challenge 
 
-**My objective is to perform statistical tests on the two datasets, MPG testing dataset and Mechacar suspension test results dataset, and create a technical report that will help drive key last minute decisions before the the grand product launch of the MechaCar. 
+My objective is to perform statistical tests on the two datasets, MPG testing dataset and Mechacar suspension test results dataset, and create a technical report that will help drive key last minute decisions before the the grand product launch of the MechaCar. 
 
 Linear regression is a statistical method to find the relationship between one dependent and one or
 more independent variables. Regression analysis constitutes an important part of a statistical analysis
