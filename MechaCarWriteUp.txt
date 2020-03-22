@@ -20,7 +20,7 @@ The four goals of this challenge are as follows:
 
 Let's now do a deep dive into each analysis with these goals.
 
-Part 1: MPG Prediction
+##Part 1: MPG Prediction
 Following is the summary analysis from RStudio using the dataset supplied:
 > summary(lm(mpg ~ vehicle.length + vehicle.weight + spoiler.angle + ground.clearance,data=mecha_car))
 
