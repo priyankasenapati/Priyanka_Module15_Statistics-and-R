@@ -73,10 +73,7 @@ that the model can predict mpg from the independent variables included in the mo
 
 ## Part 2: Suspension Coil Summary
 
-Manufacturing_Lot	Mean_PSI	Median_PSI	Variane	        Standard_Deviation
-Lot1	            1500.00	    1500.0	    0.9795918	    0.9897433
-Lot2	            1500.20	    1500.0	    7.4693878	    2.7330181
-Lot3	            1496.14	    1498.5	    170.2861224	    13.0493725
+<img width="801" alt="summary_table" src="https://user-images.githubusercontent.com/55486501/77246492-ce70c500-6c4d-11ea-9547-025eae762a3a.png">
 
 The mean and median PSI of the suspension coils manufactured in LOT1, LOT2 and LOT3 are around 1500 PSI
 but the ones from LOT3 have a significantly variance of 170.28 and Standard Deviation of 13.049.
@@ -85,7 +82,7 @@ The design specifications for the MechaCar suspension coils dictate that the var
 coils must not exceed 100 pounds per inch. The current manufacturing data, especially from LOT3, doesn't
 meet this design specification.
 
-Part 3: Suspension Coil T-Test
+## Part 3: Suspension Coil T-Test
 Using the same suspension coil data and the MechaCarChallenge.RScript file, I determined if the suspension
 coil’s pound-per-inch results are statistically different from the mean population results of 1,500
 pounds per inch.
