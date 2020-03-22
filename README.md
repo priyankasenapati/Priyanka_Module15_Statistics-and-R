@@ -26,7 +26,7 @@ Following is the summary analysis from RStudio using the dataset supplied:
 <img width="734" alt="summary_multilinear" src="https://user-images.githubusercontent.com/55486501/77246426-28bd5600-6c4d-11ea-84a8-59ba7ef9efae.png">
 
 
-Analysis
+## Analysis
 To forecast the mpg (miles per gallon) continuous dependent variable for the vehicle prototypes, I used
 multiple regression analysis to analyze the non-random variance between the mpg and the continuous
 independent variables, which were vehicle.length, vehicle.weight, spoiler.angle and ground.clearance.
@@ -46,19 +46,19 @@ ground.clearance. Since the Intercept is low and negative it means that there ar
 and factors that contribute to the variation in mpg. The model can predict of mpg from the independent
 variables included in the model.
 
-Question 1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+## Question 1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 The Pr(>|t|) values indicates the probability of the respective independent variables contributing
 random variance to the dependent variable. The significant ones are Intercept, vehicle.length and
 ground.clearance. Since the Intercept is low and negative it means that there are no other variables
 and factors that contribute to the variation in mpg. All the others are not providing any non-random
 amount of variance to the mpg values in the dataset.
 
-Question 2. Is the slope of the linear model considered to be zero? Why or why not?
+## Question 2. Is the slope of the linear model considered to be zero? Why or why not?
 No, the slope of the linear model is not zero. The p-value of 2.277e-11) is lower than the set
 significant level of 0.05. The null hypothesis, that the slope of the linear model is zero, is
 rejected.
 
-Question 3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+## Question 3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 Multiple R-squared value is 0.7032 - The model is able to predict mpg with an accuracy of 0.70 or 70%.
 This presents a resonably positive corelation.
 
