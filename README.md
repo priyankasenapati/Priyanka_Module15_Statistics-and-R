@@ -89,8 +89,8 @@ pounds per inch.
 
 one-sample test was used to get the p-value for each of the lots.
 
-one-sample test
-LOT1 one-sample t-test
+- one-sample test:
+* LOT1 one-sample t-test
 data:  sample_lot1$PSI
 t = 0, df = 49, p-value = 1
 alternative hypothesis: true mean is not equal to 1500
@@ -100,7 +100,7 @@ sample estimates:
 mean of x 
      1500)
 
-LOT2 one-sample t-test
+* LOT2 one-sample t-test
 data:  sample_lot2$PSI
 t = 0.51745, df = 49, p-value = 0.6072
 alternative hypothesis: true mean is not equal to 1500
@@ -110,7 +110,7 @@ sample estimates:
 mean of x 
    1500.2)
 
-LOT3 one-sample t-test
+* LOT3 one-sample t-test
 data:  sample_lot3$PSI
 t = -2.0916, df = 49, p-value = 0.04168
 alternative hypothesis: true mean is not equal to 1500
