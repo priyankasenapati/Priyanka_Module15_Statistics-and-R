@@ -21,7 +21,7 @@ The four goals of this challenge are as follows:
 
 Let's now do a deep dive into each analysis with these goals.
 
-Part 1: MPG Prediction
+## Part 1: MPG Prediction
 Following is the summary analysis from RStudio using the dataset supplied:
 <img width="734" alt="summary_multilinear" src="https://user-images.githubusercontent.com/55486501/77246426-28bd5600-6c4d-11ea-84a8-59ba7ef9efae.png">
 
@@ -71,7 +71,7 @@ From the above Multiple R-squared value, Pr(>|t|), and the Intercept being negat
 that the model can predict mpg from the independent variables included in the model.
 
 
-Part 2: Suspension Coil Summary
+## Part 2: Suspension Coil Summary
 
 Manufacturing_Lot	Mean_PSI	Median_PSI	Variane	        Standard_Deviation
 Lot1	            1500.00	    1500.0	    0.9795918	    0.9897433
