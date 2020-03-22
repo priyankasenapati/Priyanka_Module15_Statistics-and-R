@@ -23,29 +23,8 @@ Let's now do a deep dive into each analysis with these goals.
 
 Part 1: MPG Prediction
 Following is the summary analysis from RStudio using the dataset supplied:
-> summary(lm(mpg ~ vehicle.length + vehicle.weight + spoiler.angle + ground.clearance,data=mecha_car))
+<img width="734" alt="summary_multilinear" src="https://user-images.githubusercontent.com/55486501/77246426-28bd5600-6c4d-11ea-84a8-59ba7ef9efae.png">
 
-Call:
-lm(formula = mpg ~ vehicle.length + vehicle.weight + spoiler.angle + 
-    ground.clearance, data = mecha_car)
-
-Residuals:
-     Min       1Q   Median       3Q      Max 
--21.3395  -4.1155  -0.2094   6.8789  17.2672 
-
-Coefficients:
-                   Estimate Std. Error t value Pr(>|t|)    
-(Intercept)      -1.076e+02  1.576e+01  -6.823 1.87e-08 ***
-vehicle.length    6.240e+00  6.609e-01   9.441 3.05e-12 ***
-vehicle.weight    1.277e-03  6.948e-04   1.837   0.0728 .  
-spoiler.angle     8.031e-02  6.656e-02   1.207   0.2339    
-ground.clearance  3.659e+00  5.394e-01   6.784 2.13e-08 ***
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-Residual standard error: 8.853 on 45 degrees of freedom
-Multiple R-squared:  0.7032,	Adjusted R-squared:  0.6768 
-F-statistic: 26.65 on 4 and 45 DF,  p-value: 2.277e-11)
 
 Analysis
 To forecast the mpg (miles per gallon) continuous dependent variable for the vehicle prototypes, I used
